@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+/*START Header*/
+.top-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+    text-align: center;
+}
+
+#sup {
+    font-size: 10vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-bottom: 1vh;
+}
+
+#greeting {
+    font-size: 2vw;
+}
+/*END Header*/
