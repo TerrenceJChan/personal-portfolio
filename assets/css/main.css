@@ -1,12 +1,10 @@
 * {
     box-sizing: border-box;
 }
-
 html, body {
     margin: 0;
     padding: 0;
 }
-
 body {
     height: 100vh;
     width: 100vw;
@@ -19,18 +17,43 @@ body {
     align-items: center;
     height: 100vh;
     width: 100vw;
-    background-color: red;
     text-align: center;
 }
-
+.top-banner-text {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: seashell;
+    font-style: italic;
+    width: 100%;
+}
+.top-banner-text hr {
+    width: 35%;
+}
 #sup {
     font-size: 10vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
-    margin-bottom: 1vh;
+    margin-top: 1vh;
+    margin-bottom: 1.5vh;
 }
-
 #greeting {
     font-size: 2vw;
+}
+#greeting span {
+    font-weight: bold;
+}
+#water {
+    position: fixed;
+    z-index: -50;
+}
+@media (min-aspect-ratio: 16/9) {
+    #water {
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9) {
+    #water {
+        width: auto;
+        height: 100%;
+    }
 }
 /*END Header*/
