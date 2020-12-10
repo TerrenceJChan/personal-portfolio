@@ -1,59 +1,77 @@
-* {
-    box-sizing: border-box;
-}
-html, body {
-    margin: 0;
-    padding: 0;
-}
-body {
-    height: 100vh;
-    width: 100vw;
-}
-
 /*START Header*/
+
 .top-banner {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     text-align: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
+
 .top-banner-text {
     background-color: rgba(0, 0, 0, 0.8);
     color: seashell;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     width: 100%;
 }
+
 .top-banner-text hr {
     width: 35%;
 }
+
 #sup {
     font-size: 10vw;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 1vh;
     margin-bottom: 1.5vh;
 }
+
 #greeting {
     font-size: 2vw;
 }
+
 #greeting span {
     font-weight: bold;
 }
+
 #water {
-    position: fixed;
+    position: absolute;
     z-index: -50;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
 }
-@media (min-aspect-ratio: 16/9) {
+
+/* @media (min-aspect-ratio: 16/9) {
     #water {
-        width: 100%;
+        width: 100vw;
         height: auto;
     }
 }
+
 @media (max-aspect-ratio: 16/9) {
     #water {
         width: auto;
-        height: 100%;
+        height: 100vh;
     }
-}
+} */
+
 /*END Header*/
+
+/*START Bio*/
+
+.bio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+    height: 100vh;
+}
+
+/*END Bio*/
