@@ -1,3 +1,7 @@
+.disable-scrollbars * {
+    
+}
+
 body {
     background-color: #B8D0EB;
 }
@@ -7,13 +11,34 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+main {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+section {
+    display: flex;
+    scroll-snap-align: center;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+}
+
+section:nth-child(even) {
+    background-color: #B298DC;
+    z-index: 5;
+}
+
 .section-third {
     flex: 1;
+    text-align: right;
 }
 
 .section-content {
     flex: 2;
 }
+
 /*START Header*/
 
 .top-banner {
@@ -69,16 +94,15 @@ nav {
     float: right;
     position: sticky;
     top: 0;
-    height: 2vh;
+    height: 6vh;
     width: inherit;
     background-color: rgba(255, 240, 240, 0.8);
     z-index: 1;
+    border-radius: 3rem 0 0 3rem
 }
 
 nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
 nav ul li {
@@ -99,12 +123,5 @@ nav ul li {
 /*END Navbar*/
 
 /*START Bio*/
-
-.bio {
-    display: flex;
-    height: 100vh;
-    width: 100%;
-    margin: 0;
-}
 
 /*END Bio*/
