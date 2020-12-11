@@ -1,110 +1,95 @@
-body {
-    background-color: #B8D0EB;
-}
-
-h2 {
-    font-size: 8vw;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.section-third {
-    flex: 1;
-}
-
-.section-content {
-    flex: 2;
-}
-/*START Header*/
-
-.top-banner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-    text-align: center;
-}
-
-.top-banner-text {
-    background-color: rgba(0, 0, 0, 0.8);
-    color: seashell;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
-    width: 100%;
-}
-
-.top-banner-text hr {
-    width: 35%;
-}
-
-#hello {
-    font-size: 10vw;
-    margin-top: 1vh;
-    margin-bottom: 1.5vh;
-}
-
-#greeting {
-    font-size: 2vw;
-}
-
-#greeting span {
-    font-weight: bold;
-}
-
-#water {
-    position: absolute;
-    z-index: -50;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-}
-
-/*END Header*/
-
-/*START Navbar*/
-
-nav {
-    float: right;
-    position: sticky;
-    top: 0;
-    height: 2vh;
-    width: inherit;
-    background-color: rgba(255, 240, 240, 0.8);
-    z-index: 1;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    color: red;
-    text-align: center;
-    padding: 1vw;
-    text-decoration: none;
-}
-
-.nav-wrapper {
-    display: flex;
-    justify-content: flex-end;
-    justify-content: flex-end;
-    text-align: center;
-}
-
-/*END Navbar*/
-
-/*START Bio*/
-
-.bio {
-    display: flex;
-    height: 100vh;
-    width: 100%;
-    margin: 0;
-}
-
-/*END Bio*/
+    body {
+        background-color: #B8D0EB;
+    }
+    h2 {
+        font-size: 8vw;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+   
+    section {
+        display: flex;
+        height: 100vh;
+        width: 100%;
+        margin: 0;
+    }
+    section:nth-child(even) {
+        background-color: #B298DC;
+        z-index: 5;
+    }
+    .section-third {
+        flex: 1;
+        text-align: right;
+    }
+    .section-content {
+        flex: 2;
+    }
+    /*START Header*/
+    .top-banner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+    }
+    .top-banner-text {
+        background-color: rgba(0, 0, 0, 0.8);
+        color: seashell;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+        width: 100%;
+    }
+    .top-banner-text hr {
+        width: 35%;
+    }
+    #hello {
+        font-size: 10vw;
+        margin-top: 1vh;
+        margin-bottom: 1.5vh;
+    }
+    #greeting {
+        font-size: 2vw;
+    }
+    #greeting span {
+        font-weight: bold;
+    }
+    #water {
+        position: absolute;
+        z-index: -50;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+    /*END Header*/
+    /*START Navbar*/
+    nav {
+        float: right;
+        position: sticky;
+        top: 0;
+        height: 6vh;
+        width: inherit;
+        background-color: rgba(255, 240, 240, 0.8);
+        z-index: 1;
+        border-radius: 3rem 0 0 3rem
+    }
+    nav ul {
+        list-style-type: none;
+    }
+    nav ul li {
+        display: inline;
+        color: red;
+        text-align: center;
+        padding: 1vw;
+        text-decoration: none;
+    }
+    .nav-wrapper {
+        display: flex;
+        justify-content: flex-end;
+        justify-content: flex-end;
+        text-align: center;
+    }
+    /*END Navbar*/
+    /*START Bio*/
+    /*END Bio*/
