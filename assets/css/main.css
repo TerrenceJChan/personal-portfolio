@@ -13,8 +13,22 @@ h2 {
 
 main {
     height: 100vh;
+    
+}
+
+.scroll-container {
+    height: 100vh;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
+    position: relative;
+}
+
+.bio {
+    background-color: #B8D0EB;
+}
+
+.contact {
+    background-color: #B8D0EB;
 }
 
 section {
@@ -42,6 +56,7 @@ section:nth-child(even) {
 /*START Header*/
 
 .top-banner {
+    scroll-snap-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
