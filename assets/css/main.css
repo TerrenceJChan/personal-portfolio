@@ -236,28 +236,39 @@ nav ul li:hover {
     width: 70%;
 }
 
+.projects-container a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
 .projects-container-item {
     display: flex;
     justify-content: center;
     align-items: center;
     border: 5px solid rgba(0, 0, 0, 0.5);
     box-shadow: -0.25rem 0.125rem 1rem 0.1rem grey;
-    background-color: aquamarine;
     border-radius: 5px;
     margin: 5px auto;
     width: 100%;
 }
 
 .projects-container-item-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: black;
     height: 100%;
     width: 100%;
     opacity: 0;
     transition: 0.2s;
+    color: rgba(255, 255, 255, 0);
 }
 
 .projects-container-item-content:hover {
     opacity: 0.85;
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .featured {
@@ -266,7 +277,5 @@ nav ul li:hover {
     background-image: url("../images/featured-horiseon.jpg");
     background-size: cover;
 }
-
-.see-more {}
 
 /*END Projects*/
