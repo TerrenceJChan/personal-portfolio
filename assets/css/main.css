@@ -163,13 +163,12 @@ nav ul li {
     text-align: center;
     padding: 1vw;
     text-decoration: none;
-    transition: trans;
+    transition: 0.2s;
 }
 
 nav ul li a:link {
     color: seashell;
     text-decoration: none;
-    transform: scale(1);
 }
 
 nav ul li a:visited {
