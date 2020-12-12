@@ -17,6 +17,8 @@ This stylesheet helps with removing weird browser bugs and default margins and p
 - J Mag, _"Drone Footage Of An Empty Beach"_, https://www.pexels.com/video/drone-footage-of-an-empty-beach-4799945/
 
 ### Scrolling Effects
-Using Scroll Snap, I implemented some nice scroll effects to my different sections.  
+Using Scroll Snap, I implemented some nice scroll effects to my different sections. Major props to my friend Ian Lai who helped me figure out some terribly annoying problems with getting scroll snapping to work. I guess I didn't have to resort to Javascript this time around.  
 - Michelle Barker, _"Beautiful Scrolling Experiences – Without Libraries"_, https://24ways.org/2019/beautiful-scrolling-experiences-without-libraries/
+- Ian Lai, https://github.com/iangitscode
+
 
