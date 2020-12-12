@@ -21,4 +21,6 @@ Using Scroll Snap, I implemented some nice scroll effects to my different sectio
 - Michelle Barker, _"Beautiful Scrolling Experiences – Without Libraries"_, https://24ways.org/2019/beautiful-scrolling-experiences-without-libraries/
 - Ian Lai, https://github.com/iangitscode
 
-
+### Clickable Divs
+I wanted to add a hover effect over the images that changes opacity and reveals text, but I realized that would be problematic with an img source. I opted for using a background-image while wrapping an anchor tag instead. I also added role and aria-label attributes to make up for not having an alt attribute.
+- Mario, https://stackoverflow.com/a/8928888
