@@ -19,8 +19,9 @@ body {
 }
 
 h2 {
-    font-size: 7vw;
+    font-size: 6vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
 }
 
 main {
@@ -32,14 +33,6 @@ main {
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
     position: relative;
-}
-
-.bio {
-    background-color: #B8D0EB;
-}
-
-.contact {
-    background-color: #B8D0EB;
 }
 
 section {
@@ -117,12 +110,17 @@ section:nth-child(even) {
 /*START Navbar*/
 
 nav {
+    display: flex;
+    align-items: center;
+    font-family: serif;
+    text-transform: uppercase;
     position: fixed;
     top: 0;
     right: 1vw;
     height: 6vh;
+    font-size: 2vh;
     width: inherit;
-    background-color: rgba(255, 240, 240, 0.8);
+    background-color: hsla(0, 0%, 50%, 0.8);
     z-index: 1;
     border-radius: 3rem 0 0 3rem
 }
@@ -132,16 +130,29 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
-    color: red;
+    display: inline-block;
     text-align: center;
     padding: 1vw;
     text-decoration: none;
 }
 
+nav ul li a:link {
+    color: seashell;
+    text-decoration: none;
+}
+
+nav ul li a:visited {
+    color: seashell;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    transform: scale(1.25);
+    transition: all 0.3s ease-in-out 0.1s;
+}
+
 .nav-wrapper {
     display: flex;
-    justify-content: flex-end;
     justify-content: flex-end;
     text-align: center;
 }
