@@ -39,6 +39,7 @@ main {
 section {
     display: flex;
     scroll-snap-align: center;
+    align-items: center;
     height: 100vh;
     width: 100%;
     margin: 0;
@@ -55,7 +56,9 @@ section:nth-child(even) {
 }
 
 .section-content {
+    display: flex;
     flex: 2;
+    justify-content: center;
 }
 
 /*START Header*/
@@ -162,5 +165,13 @@ nav ul li:hover {
 /*END Navbar*/
 
 /*START Bio*/
+.bio-container {
 
+}
+
+.bio-container img {
+    border-radius: 50%;
+    width: 15%;
+    box-shadow: -1rem 0.5rem 1rem 0.5rem  #B298DC;
+}
 /*END Bio*/
