@@ -23,7 +23,7 @@ main {
 }
 
 h2 {
-    font-size: 10vh;
+    font-size: 8vh;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-transform: uppercase;
 }
@@ -87,10 +87,10 @@ section:nth-child(even) {
         text-align: center;
     }
     .section-third {
-        height: 20vh;
+        height: 25vh;
     }
     .section-content {
-        height: 80vh;
+        height: 75vh;
     }
 }
 
