@@ -223,6 +223,12 @@ nav ul li:hover {
     margin-bottom: 1em;
 }
 
+.name {
+    font-size: 3vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
 /*END Bio*/
 
 /*START Projects*/
@@ -291,7 +297,9 @@ nav ul li:hover {
 /*END Projects*/
 
 /*START Contact*/
+
 .contact-container {
     text-align: center;
 }
+
 /*END Contact*/
