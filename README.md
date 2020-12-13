@@ -5,6 +5,8 @@
 
 ❤️ Please be impressed ❤️
 
+![Preview of portfolio site.](./assets/gifs/preview.gif)
+
 ## Attributions and Credits
 It takes a village after all! Below are a list of attributions to resources that have helped me along the way of creating my site.
 
