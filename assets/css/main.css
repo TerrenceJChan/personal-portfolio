@@ -287,10 +287,15 @@ nav ul li:hover {
     }
 }
 
-.featured {
+#featured {
     grid-column: auto / span 2;
     grid-row: auto / span 2;
     background-image: url("../images/featured-horiseon.jpg");
+    background-size: cover;
+}
+
+#item-1 {
+    background-image: url("../images/sm-online-barkeep.jpg");
     background-size: cover;
 }
 
