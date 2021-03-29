@@ -299,6 +299,11 @@ nav ul li:hover {
     background-size: cover;
 }
 
+#item-2 {
+    background-image: url("../images/dangles-logo.png");
+    background-size: cover;
+}
+
 /*END Projects*/
 
 /*START Contact*/
